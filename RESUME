@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME </title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        .left {
+            background: grey;
+            flex: 30%;
+            height: 1200px;
+            margin-top: 20px;
+
+
+        }
+
+        .name {
+            text-align: right;
+        }
+
+        H4 {
+            text-align: center;
+            padding-top: 15px;
+
+        }
+
+        .right {
+            background-color: grey;
+            flex: 70%;
+            height: 30px;
+            margin-left: 10px;
+            padding-top: 20px;
+            margin-top: 30px;
+
+        }
+
+        .middle {
+            background-color: grey;
+            margin-top: 12px;
+            height: 30px;
+            padding-top: 12px;
+            padding-left: 12px;
+            
+        }
+        
+
+        .bottom {
+            background-color: grey;
+            height: 30px;
+        }
+
+        .text {
+            padding-top: 30px;
+        }
+
+        .priya {
+            padding-left: 10px;
+            padding-top: 15px;
+
+        }
+
+        .linkedin {
+            padding-top: 20px;
+        }
+
+        .contact {
+            padding-top: 20px;
+        }
+
+        .ADDRESS {
+            padding-top: 20PX;
+        }
+
+        .father {
+            padding-top: 20px;
+        }
+
+        .mother {
+            padding-top: 20px;
+        }
+
+        .dob {
+            padding-top: 20px;
+        }
+
+        .gender {
+            padding-top: 20px;
+        }
+
+        .national {
+            padding-top: 20px;
+        }
+
+        .status {
+            padding-top: 20px;
+        }
+
+        .known {
+            padding-top: 20px;
+        }
+
+        .hobby {
+            padding-top: 20px;
+        }
+
+        .award {
+            padding-top: 20px;
+        }
+
+        .key {
+            padding-top: 20px;
+        }
+
+        .objective {
+
+            margin-left: 15px;
+        }
+
+        li {
+            font-size: 20px;
+        }
+        pre{
+            text-align: left;
+            font-size: 15px;
+        }
+        .bottom,.once{
+            background-color: grey;
+            margin-top: 12px;
+            height: 30px;
+            padding-top: 12px;
+            padding-left: 12px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="name">
+        SHIVANGI VATS<BR />
+        B.COM, CS(PURSUING)
+    </div>
+    <div class="flex-container">
+        <div class="left">
+            <H4> CURRICULUM VITAE</H4>
+            <div class="priya">
+                EMAIL<BR /><a href="mailto:priyanshuvats1201@gmail.com">priyanshuvats1201@gmail.com</a><br />
+
+                <div class="linkedin">
+                    linkedin
+                </div>
+
+                <div class="contact">
+                    <B> CONTACT</B> <br /> 9528952334
+                </div>
+                <div class="ADDRESS">
+                    <B> PRESENT ADDRESS</B><BR /> Main Road, Near Ram Mandir,<br /> Gurgaon,<br /> Haryana(122001)
+                </div>
+
+                <div class="father">
+                    <b>Father's Name <br /></b> lokesh kumar
+                </div>
+                <div class="mother">
+                    <b>Mother's Name </b><br /> pavitra sharma
+                </div>
+                <div class="dob">
+                    <b> Date Of Birth</b> <br /> 07-09-1998
+                </div>
+                <div class="gender">
+                    <b>Gender</b> <br /> Female
+                </div>
+                <div class="national">
+                    <b>Nationality</b> <br /> Indian
+                </div>
+                <div class="status">
+                    <b>Martial Status</b> <br /> Single
+
+                </div>
+                <div class="known">
+                    <b>Languages Known </b><br /> Hindi,English
+                </div>
+                <div class="hobby">
+                    <b>Extracurricular Activities</b><br /> Reading book,Crafting,doodling
+                </div>
+                <div class="award">
+                    <b>Award and Achievement</b><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                    possimus numquam, laboriosam odio maiores, neque corrupti, ducimus reiciendis sint ab ipsum optio
+                    consequuntur. Doloribus eveniet ratione repudiandae voluptate est rerum.
+                </div>
+                <div class="key">
+                    <b>Key Achievement</b><br /> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel itaque
+                    consequuntur neque, minima accusamus eos hic perspiciatis non corporis beatae.
+                </div>
+            </div>
+
+
+        </div>
+        <div class="right">
+            <div class="objective">
+                <B> CARRER OBJECTIVE</B>
+            </div>
+            <div class="text">
+                <ul>
+                    <li>
+                        To Work inn challenging and dynamic environment to upgrade my skills and knowldege, To utilise
+                        whatever knowledge gained during my learning years in CS course and understand tha practical
+                        aspects to become a good professional, Looking forward for CS articleship
+                    </li>
+                </ul>
+            </div>
+            <div class="middle">
+                <B> PROFESSIONAL QUALIFICATION</B>
+
+            </div>
+            <div class="content">
+                <pre>
+Course                 CS Foundation(AIR 13)
+College/Institue       Institue Of Company Secreaties Of India
+Duration               From 2000 To 2000(Duration 0 Years)
+Years Of Passsing      2012
+
+Course                 CS Foundation(AIR 13)
+College/Institue       Institue Of Company Secreaties Of India
+Duration               From 2000 To 2000(Duration 0 Years)
+Years Of Passsing      2012
+
+                </pre>
+
+
+
+            </div>
+            <div class="bottom">
+                <B> ACEDAMIC QUAILIFICATION</B>
+            </div>
+            <PRE>
+Course                 CS Foundation(AIR 13)
+College/Institue       Institue Of Company Secreaties Of India
+Duration               From 2000 To 2000(Duration 0 Years)
+Years Of Passsing      2012
+
+Course                 CS Foundation(AIR 13)
+College/Institue       Institue Of Company Secreaties Of India
+Duration               From 2000 To 2000(Duration 0 Years)
+Years Of Passsing      2012
+
+Course                 CS Foundation(AIR 13)
+College/Institue       Institue Of Company Secreaties Of India
+Duration               From 2000 To 2000(Duration 0 Years)
+Years Of Passsing      2012
+            </PRE>
+
+            <div class="once">
+                <b> UNDERTAKING</b>
+
+            </div>
+            <pre>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugit explicabo maxime at culpa iusto?             
+
+NAME: SHIVANGI VATS                           PLACE: Gurgaon
+                                              DATE:21-02-2051
+
+            </pre>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
