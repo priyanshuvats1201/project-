@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 1</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="flipkart.png" alt="" width="70px">
+            </div>
+            <ul>
+                <a href="home.html"> HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+            </ul>
+
+            <div class="search">
+                <input type="text" placeholder="ENTER TEXT">
+
+                <button>search</button>
+            </div>
+
+
+
+        </nav>
+
+    </header>
+    <main>
+
+        <div class="slider">
+            <img src="bus.jpg.webp" alt="bus image" width="700px" height="500px">
+        </div>
+        <div class="container">
+            <div class="content">
+                <h2>ELECTRONIC ITEMS</h2>
+                <img src="img1.jpeg" alt="image" height="126px" width="189px">
+                <p class="items">Click To Purchase</p>
+                <p class="items"> Discount 10%</p>
+                <p class="items"> Hurry Up</p>
+            </div>
+            <div class="content">
+                <h2>HOUSEHOLD ITEMS</h2>
+                <img src="img2.jpg" alt="image" height="126px" width="189px">
+                <p class="items">Click To Purchase</p>
+                <p class="items"> Discount 10%</p>
+                <p class="items"> Hurry Up</p>
+            </div>
+            <div class="content">
+                <h2>BABY ITEMS</h2>
+                <img src="img3.jpg" alt="image" height="126px" width="189px">
+                <p class="items">Click To Purchase</p>
+                <p class="items"> Discount 10%</p>
+                <p class="items"> Hurry Up</p>
+            </div>
+            <div class="content">
+                <h2>MEN'S ITEMS</h2>
+                <img src="img2.jpg" alt="image" height="126px" width="189px">
+                <p class="items">Click To Purchase</p>
+                <p class="items"> Discount 10%</p>
+                <p class="items"> Hurry Up</p>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="content">
+                <h2>ELECTRONIC ITEMS</h2>
+                <img src="img1.jpeg" alt="image" height="126px" width="189px">
+                <p class="items">Click To Purchase</p>
+                <p class="items"> Discount 10%</p>
+                <p class="items"> Hurry Up</p>
+            </div>
+            <div class="content">
+                <h2>HOUSEHOLD ITEMS</h2>
+                <img src="img2.jpg" alt="image" height="126px" width="189px">
+                <p class="items">Click To Purchase</p>
+                <p class="items"> Discount 10%</p>
+                <p class="items"> Hurry Up</p>
+            </div>
+            <div class="content">
+                <h2>BABY ITEMS</h2>
+                <img src="img3.jpg" alt="image" height="126px" width="189px">
+                <p class="items">Click To Purchase</p>
+                <p class="items"> Discount 10%</p>
+                <p class="items"> Hurry Up</p>
+            </div>
+            <div class="content">
+                <h2>MEN'S ITEMS</h2>
+                <img src="img2.jpg" alt="image" height="126px" width="189px">
+                <p class="items">Click To Purchase</p>
+                <p class="items"> Discount 10%</p>
+                <p class="items"> Hurry Up</p>
+            </div>
+        </div>
+        <footer> COPYRIGHT &COPY; RIGHT RESERVED BY PRIYANSHU VATS </footer>
+</body>
+
+</html>
+
+
+CSS
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    background-color: blue;
+    height: 70px;
+    display: flex;
+    font-family: cursive;
+}
+a{
+    text-decoration: none;
+    word-spacing: 30px;
+    color: aqua;
+    
+}
+nav{
+    text-align: center;
+    display: flex;
+   
+    
+}
+ul{
+    padding: 23px;
+    word-spacing: 70px;
+    padding-left: 160px
+}
+.logo{
+    padding-left: 10px;
+    display: flex;
+    width: 125px;
+    height: 70px;
+
+}
+
+
+footer{
+    background-color: black;
+    height: 80px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+ input{
+   height: 25px;   
+  
+  border-radius: 8px;
+  padding-left: 5px;
+   
+   width: 100vh;
+}
+
+.search{
+    display: flex;
+    justify-items: center;
+    align-items: center; 
+    
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 5px ;
+    padding: 1px;
+    color: white;
+    background-color: blue;
+    border: 2px solid white;
+    cursor: pointer;
+}
+main{
+    font-family: cursive;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    overflow: hidden;
+}
+h2{
+    margin: 20px 0;
+}
+.content{
+    padding-left: 95px;
+}
+.items{
+    margin: 10px 35px;
+}
+.container{
+    display: flex;
+}
